@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">  
+    <meta name="milestone" content="Portfolio">
+    <title>Silletto Portfolio</title>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" /> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#hero-section"><i class="fa-solid fa-house"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#mission-section">Mission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills-section">Skills</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#project-section">Projects</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-section">Contact</a>
+            
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <!-- Hero section -->
+  	<section id="hero-section">
+      <div class="hero-text">
+        <img src="img/headshot.png" alt="headshot image of Rose Silletto, a young person with short red hair and glasses"
+          <br>
+        <h1>Rose Silletto</h1>
+        <h4>Developing Digital Media for a Better World</h4>
+      </div>
+  	</section>
+    
+    <main>
+  	<!-- Mission/Meet-me section -->
+    <section id="mission-section">
+
+      <h1>My Mission</h1>
+      <div class="container" id="flex"> 
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <img src="img/social-media-hero.png" height="245px">
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <p>  Hello! I am majoring in New Media Development at RIT. I am hoping to get a job in interactive media, particularly games or VR. I believe that educational interactive media has the potential for creating positive change&mdash; building empathy through immersive experiences. I really enjoy narrative-focused RPGs, especially games focused on portraying underrepresented communities or based on historical events. 
+          </p>
+          </div>
+        </div>
+      </div>
+  	</section>
+  
+    <!-- Skills section -->
+    <section id="skills-section">
+
+      <h1>Skills</h1>
+      <br>
+      <div class="container" id="flex"> 
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-xl-3 text-center" id="col">
+            <i class="devicon-html5-plain-wordmark"></i>
+      <br>Creating structured web pages using modern semantic HTML.
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-3 text-center" id="col">
+            <i class="devicon-css3-plain-wordmark colored"></i>
+      <br>Designing visually appealing sites and interactions using CSS and CSS frameworks Bootstrap and Bulma.
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-3 text-center" id="col">
+            <i class="devicon-javascript-plain"></i>
+      <br>Coding interactive websites, games, and apps using Javascript.
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-3 text-center" id="col">
+            <i class="devicon-csharp-plain colored"></i>
+      <br>Developing apps and games using C# and the Unity Game Engine.
+          </div>
+        </div>
+      </div>
+  	</section>
+
+    <section id="project-section">
+
+      <h1>Projects</h1>
+
+      <div id="carouselExample" class="carousel slide">
+        
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/ocean-cleanup.png" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Ocean Cleanup</h5>
+              <p>An arcade-style game made with HTML, Javascript, and PixiJS.</p>
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <img src="img/luna.png" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Queer: It's Not a Bad Word</h5>
+              <p>A prototype for a nonfiction narrative adventure game about the queer community. Made in Twine.</p>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <img src="img/vaquero-versus.png" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Vaquero Versus</h5>
+              <p>2D arcade shooter made in Unity and coded in C#. Character art made by me in aseprite.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div>
+      <p></p>
+      <p>Click <a href="https://people.rit.edu/ras5491/235/Web-Apps/project-3/" target="_blank" rel="noopener noreferrer">here</a> to  play Ocean Cleanup!</p>
+      <p>Click <a href="https://rsill.myportfolio.com" target="_blank" rel="noopener noreferrer">here</a> to view my photography portfolio.</p>
+      </div>
+    </section>
+  
+    <!-- Contact Section -->
+    <section id="contact-section">
+
+      <h1>Contact Me</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a href="www.linkedin.com/in/rose-silletto"><i class="devicon-linkedin-plain colored"></i></a>
+          </div>
+          <div class="col">
+            <a href="https://github.com/rsilletto"><i class="devicon-github-original"></i></a>
+          </div>
+          <div class="col">
+            <a href="mailto:rsilletto03@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+      </div>
+    </section>
+  </main>
+    <!-- Footer section -->
+    <section id="footer-section">
+      &copy; Rose Silletto 2024
+    </section>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	
+  </body>
+</html>
