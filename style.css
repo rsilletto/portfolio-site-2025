@@ -125,5 +125,6 @@ section{
 }
 
 #photo-section img{
-  margin-left: 30%;
+  display: block;
+  margin: auto;
 }
