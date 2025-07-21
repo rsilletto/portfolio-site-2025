@@ -99,20 +99,6 @@ section{
     margin-right: 20%;
   }
 
-/* @media only screen and (min-width: 980px) {
-  #mission-section p{
-    margin-left: 120px;
-    margin-right: 120px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  #mission-section p{
-    margin-left: 180px;
-    margin-right: 180px;
-  }
-} */
-
 @media only screen and (min-width: 980px) {
   #project-section section{
     margin-left: 50px;
@@ -132,4 +118,12 @@ section{
 #project-section section{
   margin-left: 70px;
   margin-right: 70px;
+}
+
+#photo-section p{
+  text-align: center;
+}
+
+#photo-section img{
+  margin-left: 30%;
 }
