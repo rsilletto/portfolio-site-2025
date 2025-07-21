@@ -22,6 +22,7 @@ main h1{
   height: 100px;
   display: inline-block;
   text-align: center;
+  border-radius: 20rem;
 }
 
 .hero-text{
@@ -87,13 +88,32 @@ section{
   margin-left: 15%;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1400px) {
   #mission-section p{
-    margin: 15px;
+    margin: 25px;
   }
 }
 
-@media only screen and (min-width: 1150px) {
+#mission-section p{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+/* @media only screen and (min-width: 980px) {
+  #mission-section p{
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #mission-section p{
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+} */
+
+@media only screen and (min-width: 980px) {
   #project-section section{
     margin-left: 50px;
     margin-right: 50px;
@@ -101,7 +121,7 @@ section{
 
   #project-section section div{
     display: flex;
-    padding: 10px;
+    padding: 20px;
   }
 
 #project-section section div img{
@@ -112,9 +132,4 @@ section{
 #project-section section{
   margin-left: 70px;
   margin-right: 70px;
-}
-
-#mission-section{
-  margin-left: 150px;
-  margin-right: 150px;
 }
