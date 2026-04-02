@@ -8,6 +8,14 @@ main h1{
   margin-bottom: 15px;
 }
 
+main p{
+  font-size: 17px;
+}
+
+main h3{
+  font-size: 24px;
+}
+
 #hero-section{
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/red-rose-hero.jpg);
   width: 100%;
